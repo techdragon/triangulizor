@@ -27,8 +27,8 @@ setup(
         'Topic :: Multimedia :: Graphics',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
-    packages=['triangulizor'],
-    scripts=['bin/triangulizor'],
+    packages=['triangulizor2'],
+    scripts=['bin/triangulizor2'],
     install_requires=[
         "PIL >= 1.1.7",
     ],
