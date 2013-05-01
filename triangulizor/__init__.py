@@ -1,2 +1,2 @@
-from .triangulizor import triangulize
+from .triangulizor2 import triangulize2
 
