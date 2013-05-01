@@ -7,7 +7,7 @@ def read(fname):
 
 
 setup(
-    name='triangulizor',
+    name='triangulizor2',
     version='1.0.1',
     description='Triangulize your images!',
     long_description=read('README.rst'),
