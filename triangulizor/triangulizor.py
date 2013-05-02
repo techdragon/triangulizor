@@ -136,10 +136,10 @@ def draw_triangles(tile_x, tile_y, tile_size, split, top_color, bottom_color,
     assert split in ('right', 'left')
 
     # The four corners of this tile
-    nw = (tile_x, tile_y)
-    ne = (tile_x + tile_size - 1, tile_y)
+    nw = (tile_x + tile_size - 1, tile_y + tile_size)
+    ne = (tile_x + tile_size - 1, tile_y + tile_size)
     se = (tile_x + tile_size - 1, tile_y + tile_size)
-    sw = (tile_x, tile_y + tile_size)
+    sw = (tile_x + tile_size - 1, tile_y + tile_size)
 
     if split == 'left':
         # top right triangle
