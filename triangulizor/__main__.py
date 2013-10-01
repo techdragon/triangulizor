@@ -6,7 +6,7 @@ import re
 import sys
 import urllib2
 
-from .triangulizor import triangulize
+from .triangulizor2 import triangulize
 
 if __name__ == '__main__':
 
